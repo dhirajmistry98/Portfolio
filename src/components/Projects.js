@@ -11,11 +11,40 @@ const Projects = () => {
       </div>
 
       <article className="project">
+        {/* Food Delivery project as the first project */}
         <div className="card">
           <div className="project-info">
             <div className="project-bio">
-              <h3>Project One</h3>
-              <p>Mern stack</p>
+              <h3>Food Delivery Website</h3>
+              <p>
+                React.js, MongoDB, Express, Node.js, Stripe
+              </p>
+            </div>
+
+            <div className="project-link">
+              <a
+                href="https://github.com/dhirajmistry98/food-delivery"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github"></i>
+              </a>
+              <a
+                href="https://food-delivery-forntend.onrender.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-globe"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="card">
+          <div className="project-info">
+            <div className="project-bio">
+              <h3>webflix Website</h3>
+              <p>MERN stack</p>
             </div>
 
             <div className="project-link">
@@ -40,7 +69,7 @@ const Projects = () => {
         <div className="card">
           <div className="project-info">
             <div className="project-bio">
-              <h3>Project Two</h3>
+              <h3>Snappy Website</h3>
               <p>React, Node.js, Socket.io, MongoDB</p>
             </div>
 

@@ -131,12 +131,15 @@ h2::selection {
 /* Project Images */
 
 .card:nth-child(1) {
-  background: url(../assets/WEBFLIX.png) center center/cover;
+  background: url(../assets/Food-delivery.png) center center/cover;
 
 }
 
 /* Project 2 */
 .card:nth-child(2) {
+  background: url(../assets/WEBFLIX.png) center center/cover;
+}
+.card:nth-child(3) {
   background: url(../assets/project-two.png) center center/cover;
 }
 

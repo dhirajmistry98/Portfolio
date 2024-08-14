@@ -4,7 +4,7 @@ import "../styles/byee.css";
 import "../styles/hello.css";
 import logo from "../assets/logo.png";
 import ThemeSwitcher from "./ThemeSwitcher"; // Import the ThemeSwitcher component
-import resume from "../assets/Dhiraj mistry Resume .pdf"; // Import your PDF
+import resume from "../assets/Dhiraj Mistry.pdf"; // Import your PDF
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
